@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+<style>
+   .gallary img{
+      width: 200px;
+      height:400px;
+      object-fit: cover;
+      object-position: 50% 0;
+      display:inline-block;
+      margin:3rem;
+      margin:1vw;
+      border:3px solid gray;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+      border-radius: 5px;
+   }
+</style>
+
+</head>
+<body>
+<div class="gallary">
+   <img src="1.jpg" alt="">
+   <img src="2.png" alt="">
+   <img src="3.jpg" alt="">
+</div>
+</body>
+</html>

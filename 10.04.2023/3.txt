@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      html,body,.container,.container_bg{
+         min-height: 100vh;
+      }
+      body{
+         background: rgb(186, 81, 81) url(https://phonoteka.org/uploads/posts/2022-02/1645254704_1-phonoteka-org-p-fon-dlya-zadnego-fona-1.jpg) no-repeat;
+         background-size: cover;
+         background-position: 50% 0;
+         background-position:unset;
+         background-attachment: fixed;
+      }
+      /*https://phonoteka.org/uploads/posts/2022-02/1645254704_1-phonoteka-org-p-fon-dlya-zadnego-fona-1.jpg*/
+      .container{
+            width:1024;
+            margin:0 auto;
+      }
+      .container_bg{
+          color:beige;
+          background-color: rgba(0, 0, 0, 0.454);
+          padding: 3rem;
+          margin:5rem 2rem;
+      }
+   </style>
+</head>
+<body>
+   <div class="container container_bg">
+      <div class="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae deleniti harum velit quis est odio saepe possimus a aspernatur dicta et asperiores praesentium cumque, voluptatum consectetur? Veniam corporis sequi commodi?</p>
+     <p>
+     Laepe repudiandae eos doloremque delectus minus? Quis, ea? Voluptates expedita nisi ratione eaque accusamus consectetur cumque itaque porro amet. Quod dolores animi consectetur accusantium ducimus autem laudantium?
+     Laepe repudiandae eos doloremque delectus minus? Quis, ea? Voluptates expedita nisi ratione eaque accusamus consectetur cumque itaque porro amet. Quod dolores animi consectetur accusantium ducimus autem laudantium?
+     Laepe repudiandae eos doloremque delectus minus? Quis, ea? Voluptates expedita nisi ratione eaque accusamus consectetur cumque itaque porro amet. Quod dolores animi consectetur accusantium ducimus autem laudantium?
+     Laepe repudiandae eos doloremque delectus minus? Quis, ea? Voluptates expedita nisi ratione eaque accusamus consectetur cumque itaque porro amet. Quod dolores animi consectetur accusantium ducimus autem laudantium?
+     Laepe repudiandae eos doloremque delectus minus? Quis, ea? Voluptates expedita nisi ratione eaque accusamus consectetur cumque itaque porro amet. Quod dolores animi consectetur accusantium ducimus autem laudantium?
+     Laepe repudiandae eos doloremque delectus minus? Quis, ea? Voluptates expedita nisi ratione eaque accusamus consectetur cumque itaque porro amet. Quod dolores animi consectetur accusantium ducimus autem laudantium?
+     Laepe repudiandae eos doloremque delectus minus? Quis, ea? Voluptates expedita nisi ratione eaque accusamus consectetur cumque itaque porro amet. Quod dolores animi consectetur accusantium ducimus autem laudantium?
+     Laepe repudiandae eos doloremque delectus minus? Quis, ea? Voluptates expedita nisi ratione eaque accusamus consectetur cumque itaque porro amet. Quod dolores animi consectetur accusantium ducimus autem laudantium?
+     Laepe repudiandae eos doloremque delectus minus? Quis, ea? Voluptates expedita nisi ratione eaque accusamus consectetur cumque itaque porro amet. Quod dolores animi consectetur accusantium ducimus autem laudantium?
+  
+   </p>
+      </div>
+   </div>
+</body>
+</html>

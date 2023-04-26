@@ -1,0 +1,69 @@
+*{
+   margin: 2;
+   padding: 0;
+   box-sizing: border-box;
+}
+/* 1rem = html fz*/
+html{
+   font-size: 18px;
+}
+body{
+   font: 1rem/2rem Arial, sans-serif; 
+   color:#333;
+  /* line-height: 24px;*/
+}
+h1{
+   margin:2rem 0 2rem 0;/* можно указать только два, если они одинаковы :2rem 0*/
+}
+h2{
+   margin:1.5rem 0;
+}
+p{
+   margin:0.8rem 0;
+}
+.container{
+   width:1024px;
+   margin: 0 auto;
+   /*border:1px solid black; - контейнер*/
+}
+.message{
+   color:#ff7800;
+   border-left: 2px solid chocolate;
+   background: #db9e69;
+   padding:2rem 3rem;
+}
+.nav{
+   border:4px solid gray;
+}
+ul,h4{
+   margin:1rem 0 1rem 2rem;
+}
+ul li{
+   margin:0.5rem;
+   list-style-type:disc;
+}
+.nav ul li{
+   list-style-type: square;
+   list-style-image: url(../img/check-solid.svg);
+}
+ol li{
+   margin:0.5rem;
+   list-style-type:lower-alpha;
+}
+ol ul li{
+   list-style-type:disc;
+}
+.icon-message::before{
+content:'\f007';
+font-family: 'Fontawesome';
+font-size: 24px;
+line-height: 20px;
+color:blue;
+display: inline-block;
+padding:0;
+margin: 20px 20px 0 0 ;
+}
+.bg-text{
+   background-color: #ff7800;
+}
+

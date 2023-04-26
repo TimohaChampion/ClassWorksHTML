@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      html{
+         font-family: Arial, Helvetica, sans-serif;
+      }
+         .dev{
+            background-color: black;
+
+         }
+         .container-flex{
+            color:white;
+            display: flex;
+            height:500px;
+
+            justify-content:center;
+            flex-direction: column;/*меняет элементы оси*/
+
+            align-items:center;
+            gap:5px;
+         }
+         .small-round{
+            width:200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            order:1;
+         }
+         h2{
+          order:0;
+         }
+         h3{
+           margin:0;
+           order:4;
+         }
+         h5{
+            margin:0;
+            order:5;
+         }
+         p{
+            margin:0;
+            order:3;
+         }
+         
+
+   </style>
+</head>
+<body>
+   <section class="dev">
+      <div class="container-flex">
+            <h2>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quos.
+            </h2>
+            <img class="small-round" src="https://f.vividscreen.info/soft/56857d2a5ac29f2897c481b80da86a41/Deliciour-Cherries-2880x1920.jpg" alt="">
+            
+            <h3>
+               Cherry
+            </h3>
+            <h5>
+               fruit
+            </h5>
+      </div>
+   </section>
+   
+   
+   
+   <article>
+   </article>
+
+</body>
+</html>

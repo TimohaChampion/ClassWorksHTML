@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      .products{
+         width:1024px;
+         margin:0 auto;      
+      }
+      .product{
+         border:1px solid gray;
+         box-shadow: 0 0 3px rgba(0,0,0,0.5);
+         width:15%;
+         display:inline-block;
+         margin:0 1vw 1vh 1vw;
+         padding:10px;
+      }
+      .product:hover{
+         box-shadow: 0 0 10px rgba(0,0,0,0.8);
+
+      }
+      .product img{
+         width:100%;
+         height: 400px;
+         object-fit: cover;
+         border:3px solid red;
+      }
+      figcaption{
+         margin-top: 20px;
+         text-align:center;
+      }
+      .product{
+         text-decoration: none;
+         color:blue;
+      }
+      .product:hover{
+         text-decoration: underline;
+      }
+      .product{
+         position: relative;
+      }
+      .sales{
+         display:inline-block;
+         background-color: green;
+         font-size: 0.8rem;
+         color:antiquewhite;
+         text-transform: uppercase;
+         padding:3px;
+         position: absolute;
+         top:10px;
+         left:10px;
+         left:calc(50% - 50px);
+      }
+      .fixed{
+         font-size: 100px;
+         color:rgba(13, 255, 0, 0.418);
+         position:fixed;
+         top:100px;
+         left:40%;
+         z-index: 1000;
+      }
+   </style>
+</head>
+<body>
+   <div class="fixed">
+      Товары
+   </div>
+   <div class="products">
+
+      <figure class="product">
+         <div class="sales">
+            скидка 80%
+         </div>
+         <a href="free-png.ru-413.png">
+            <img src="free-png.ru-413.png" alt="">
+         </a>
+         <figcaption>meat</figcaption>
+      </figure>
+
+      <figure class="product">
+         <div class="sales">
+            скидка 30%
+         </div>
+         <a href="free-png.ru-457.png">
+            <img src="free-png.ru-457.png" alt="">
+         </a>
+         <figcaption>bread</figcaption>
+      </figure>
+
+      <figure class="product">
+         <div class="sales">
+            скидка 10%
+         </div>
+         <a href="free-png.ru-656.png">
+            <img src="free-png.ru-656.png" alt="">
+         </a>
+         <figcaption>cheese</figcaption>
+      </figure>
+
+      <figure class="product">
+         <div class="sales">
+            скидка 100%
+         </div>
+         <a href="#">
+            
+            <img src="free-png.ru-809.png" alt="">
+         </a>
+         <figcaption>cake</figcaption>
+      </figure>
+
+   </div>   
+</body>
+</html>

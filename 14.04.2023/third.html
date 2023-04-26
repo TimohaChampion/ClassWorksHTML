@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+
+      #form-call {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 500px;
+      }
+
+      input, input[type="radio"], input[type="checkbox"]:focus{
+         border:1px solid rgb(255, 0, 34);
+      }
+
+      input[type="submit"]{
+            background-color: chocolate;
+      }
+
+      input:focus{
+         outline:2px solid red;
+      }
+      input:valid{
+         border:1px solid blue;
+      }
+      input:invalid{
+         border:1px solid yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="call">
+      <form method="post" method="get" name="form-call" id="form-call">
+        <label for="name-user">
+          Your name
+          <input
+            type="text"
+            placeholder="Your name"
+            id="name-user"
+            name="name-user"
+          />
+        </label>
+
+        <label for="tell-user">
+          Your phone*
+          <input
+            type="tell"
+            placeholder="Your phone*"
+            id="tell-user"
+            name="tell-user"
+            required
+          />
+        </label>
+
+        <label for="time-user"> Your time </label>
+        <input
+          type="date"
+          placeholder="Your time"
+          id="time-user"
+          name="time-user"
+        />
+
+        <label for="mail-user">
+          Your mail
+          <input
+            type="email"
+            placeholder="Your mail"
+            id="mail-user"
+            required
+            name="mail-user"
+          />
+        </label>
+
+        <label>who you are?</label>
+
+        <label for="pers[1]">
+          <input type="radio" value="w" name="pers" id="pers[1]" />
+          w
+        </label>
+
+        <label for="pers[2]">
+          <input type="radio" value="m" name="pers" id="pers[2]" />
+          m
+        </label>
+
+        <label>Your speciality</label>
+
+        <label for="learn[1]">
+          <input type="checkbox" value="1" name="learn" id="learn[1]" />
+          Collage
+        </label>
+
+        <label for="learn[2]">
+          <input type="checkbox" value="1" name="learn" id="learn[2]" />
+          University
+        </label>
+
+        <input type="submit" value="Sell" id="sell-user" name="sell-user" />
+
+      </form>
+    </section>
+  </body>
+</html>
